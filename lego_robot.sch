@@ -1,0 +1,882 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lego_robot:BD65496MUV U8
+U 1 1 619A354B
+P 8600 4800
+F 0 "U8" H 8625 5615 50  0000 C CNN
+F 1 "BD65496MUV" H 8625 5524 50  0000 C CNN
+F 2 "lego_robot:BD65496MUV" H 8750 4850 50  0001 C CNN
+F 3 "" H 8750 4850 50  0001 C CNN
+	1    8600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:DSN-1504-3A U2
+U 1 1 619A4199
+P 3725 1550
+F 0 "U2" H 3725 1975 50  0000 C CNN
+F 1 "DSN-1504-3A" H 3725 1884 50  0000 C CNN
+F 2 "" H 3225 1650 50  0001 C CNN
+F 3 "" H 3225 1650 50  0001 C CNN
+	1    3725 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:L80-M39 U3
+U 1 1 619A50A8
+P 6400 3250
+F 0 "U3" H 6405 3815 50  0000 C CNN
+F 1 "L80-M39" H 6405 3724 50  0000 C CNN
+F 2 "lego_robot:L80-M39" H 6600 3750 50  0001 C CNN
+F 3 "" H 6600 3750 50  0001 C CNN
+	1    6400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:ShengYang-BMS U1
+U 1 1 619A5B9E
+P 1450 1600
+F 0 "U1" H 1450 2015 50  0000 C CNN
+F 1 "ShengYang-BMS" H 1450 1924 50  0000 C CNN
+F 2 "" H 650 2200 50  0001 C CNN
+F 3 "" H 650 2200 50  0001 C CNN
+	1    1450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:BD65496MUV U7
+U 1 1 619AF231
+P 8600 3250
+F 0 "U7" H 8625 4065 50  0000 C CNN
+F 1 "BD65496MUV" H 8625 3974 50  0000 C CNN
+F 2 "lego_robot:BD65496MUV" H 8750 3300 50  0001 C CNN
+F 3 "" H 8750 3300 50  0001 C CNN
+	1    8600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:BD65496MUV U6
+U 1 1 619B0077
+P 8600 1850
+F 0 "U6" H 8625 2665 50  0000 C CNN
+F 1 "BD65496MUV" H 8625 2574 50  0000 C CNN
+F 2 "lego_robot:BD65496MUV" H 8750 1900 50  0001 C CNN
+F 3 "" H 8750 1900 50  0001 C CNN
+	1    8600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:Motor_Connector J1
+U 1 1 619CA220
+P 10450 1600
+F 0 "J1" H 10400 1200 50  0000 L CNN
+F 1 "Motor_Connector" H 10150 1100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10450 1600 50  0001 C CNN
+F 3 "~" H 10450 1600 50  0001 C CNN
+	1    10450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:Motor_Connector J2
+U 1 1 619CB677
+P 10450 3000
+F 0 "J2" H 10400 2600 50  0000 L CNN
+F 1 "Motor_Connector" H 10150 2500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10450 3000 50  0001 C CNN
+F 3 "~" H 10450 3000 50  0001 C CNN
+	1    10450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:Motor_Connector J3
+U 1 1 619CBF26
+P 10450 4550
+F 0 "J3" H 10400 4150 50  0000 L CNN
+F 1 "Motor_Connector" H 10150 4050 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 10450 4550 50  0001 C CNN
+F 3 "~" H 10450 4550 50  0001 C CNN
+	1    10450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:STM32-NUCLEO-F446RE U4
+U 1 1 619BB716
+P 2800 4900
+F 0 "U4" H 2775 6715 50  0000 C CNN
+F 1 "STM32-NUCLEO-F446RE" H 2775 6624 50  0000 C CNN
+F 2 "lego_robot:ST_NUCLEO64" H 1850 6650 50  0001 C CNN
+F 3 "" H 1850 6650 50  0001 C CNN
+	1    2800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 1850 3225 1850
+Wire Wire Line
+	3225 1850 3225 1750
+Connection ~ 3225 1750
+Wire Wire Line
+	3225 1750 3325 1750
+Wire Wire Line
+	3325 1350 3225 1350
+Wire Wire Line
+	3225 1350 3225 1450
+Connection ~ 3225 1450
+Wire Wire Line
+	3225 1450 3325 1450
+Wire Wire Line
+	4125 1350 4225 1350
+Wire Wire Line
+	4225 1350 4225 1450
+Wire Wire Line
+	4225 1450 4425 1450
+Wire Wire Line
+	4125 1450 4225 1450
+Connection ~ 4225 1450
+Wire Wire Line
+	4125 1750 4225 1750
+Wire Wire Line
+	4225 1750 4225 1850
+Wire Wire Line
+	4225 1850 4125 1850
+Wire Wire Line
+	4225 1750 4425 1750
+Connection ~ 4225 1750
+Text Label 9500 2100 2    50   ~ 0
+MOTOR1_A
+Text Label 9500 2200 2    50   ~ 0
+MOTOR1_B
+Text Label 9500 3500 2    50   ~ 0
+MOTOR2_A
+Text Label 9500 3600 2    50   ~ 0
+MOTOR2_B
+Text Label 9500 5050 2    50   ~ 0
+MOTOR3_A
+Text Label 9500 5150 2    50   ~ 0
+MOTOR3_B
+Wire Wire Line
+	9500 5150 9100 5150
+Wire Wire Line
+	9500 5050 9100 5050
+Wire Wire Line
+	9500 3600 9100 3600
+Wire Wire Line
+	9500 3500 9100 3500
+Wire Wire Line
+	9500 2200 9100 2200
+Wire Wire Line
+	9500 2100 9100 2100
+Text Label 9850 1400 0    50   ~ 0
+MOTOR1_A
+Text Label 9850 1500 0    50   ~ 0
+MOTOR1_B
+Wire Wire Line
+	9850 1400 10250 1400
+Wire Wire Line
+	9850 1500 10250 1500
+Text Label 9850 2800 0    50   ~ 0
+MOTOR2_A
+Text Label 9850 2900 0    50   ~ 0
+MOTOR2_B
+Wire Wire Line
+	9850 2800 10250 2800
+Wire Wire Line
+	9850 2900 10250 2900
+Text Label 9850 4350 0    50   ~ 0
+MOTOR3_A
+Text Label 9850 4450 0    50   ~ 0
+MOTOR3_B
+Wire Wire Line
+	9850 4350 10250 4350
+Wire Wire Line
+	9850 4450 10250 4450
+$Comp
+L power:GND #PWR0101
+U 1 1 619D969C
+P 5850 3800
+F 0 "#PWR0101" H 5850 3550 50  0001 C CNN
+F 1 "GND" H 5855 3627 50  0000 C CNN
+F 2 "" H 5850 3800 50  0001 C CNN
+F 3 "" H 5850 3800 50  0001 C CNN
+	1    5850 3800
+	1    0    0    -1  
+$EndComp
+Text Label 9650 4750 0    50   ~ 0
+MOTOR3_ENC_A
+Text Label 9650 4850 0    50   ~ 0
+MOTOR3_ENC_B
+Wire Wire Line
+	9650 4750 10250 4750
+Wire Wire Line
+	9650 4850 10250 4850
+Text Label 9650 3200 0    50   ~ 0
+MOTOR2_ENC_A
+Text Label 9650 3300 0    50   ~ 0
+MOTOR2_ENC_B
+Wire Wire Line
+	9650 3200 10250 3200
+Wire Wire Line
+	9650 3300 10250 3300
+Text Label 9650 1800 0    50   ~ 0
+MOTOR1_ENC_A
+Text Label 9650 1900 0    50   ~ 0
+MOTOR1_ENC_B
+Wire Wire Line
+	9650 1800 10250 1800
+Wire Wire Line
+	9650 1900 10250 1900
+Text Label 800  4000 0    50   ~ 0
+MOTOR2_ENC_A
+Text Label 800  4100 0    50   ~ 0
+MOTOR2_ENC_B
+Wire Wire Line
+	800  4000 1400 4000
+Wire Wire Line
+	800  4100 1400 4100
+Text Label 800  3800 0    50   ~ 0
+MOTOR1_ENC_A
+Text Label 800  3900 0    50   ~ 0
+MOTOR1_ENC_B
+Wire Wire Line
+	800  3800 1400 3800
+Wire Wire Line
+	800  3900 1400 3900
+Text Label 800  4200 0    50   ~ 0
+MOTOR3_ENC_A
+Text Label 800  4300 0    50   ~ 0
+MOTOR3_ENC_B
+Wire Wire Line
+	800  4200 1400 4200
+Wire Wire Line
+	800  4300 1400 4300
+Text Label 7650 5050 0    50   ~ 0
+MOTOR3_INA
+Text Label 7650 5150 0    50   ~ 0
+MOTOR3_INB
+Text Label 7650 3500 0    50   ~ 0
+MOTOR2_INA
+Text Label 7650 3600 0    50   ~ 0
+MOTOR2_INB
+Text Label 7650 2100 0    50   ~ 0
+MOTOR1_INA
+Text Label 7650 2200 0    50   ~ 0
+MOTOR1_INB
+Text Label 900  4900 0    50   ~ 0
+MOTOR3_INA
+Text Label 900  5000 0    50   ~ 0
+MOTOR3_INB
+Text Label 900  4700 0    50   ~ 0
+MOTOR2_INA
+Text Label 900  4800 0    50   ~ 0
+MOTOR2_INB
+Text Label 900  4500 0    50   ~ 0
+MOTOR1_INA
+Text Label 900  4600 0    50   ~ 0
+MOTOR1_INB
+Wire Wire Line
+	900  4500 1400 4500
+Wire Wire Line
+	900  4600 1400 4600
+Wire Wire Line
+	900  4700 1400 4700
+Wire Wire Line
+	900  4800 1400 4800
+Wire Wire Line
+	900  4900 1400 4900
+Wire Wire Line
+	900  5000 1400 5000
+Wire Wire Line
+	7650 2100 8150 2100
+Wire Wire Line
+	7650 2200 8150 2200
+Wire Wire Line
+	7650 5050 8150 5050
+Wire Wire Line
+	8150 5150 7650 5150
+Wire Wire Line
+	7650 3500 8150 3500
+Wire Wire Line
+	7650 3600 8150 3600
+Wire Notes Line
+	10950 750  7450 750 
+Wire Notes Line
+	7450 6350 10950 6350
+Text Notes 7500 950  0    100  ~ 20
+Motor control\n
+Text Label 5350 3200 0    50   ~ 0
+GPS_UART_RX
+Text Label 5350 3300 0    50   ~ 0
+GPS_UART_TX
+Text Label 5350 3400 0    50   ~ 0
+GPS_RESET
+Wire Wire Line
+	5950 3700 5850 3700
+Wire Wire Line
+	5850 3700 5850 3800
+Wire Wire Line
+	5950 3600 5850 3600
+Wire Wire Line
+	5850 3600 5850 3700
+Connection ~ 5850 3700
+Wire Wire Line
+	5350 3200 5950 3200
+Wire Wire Line
+	5350 3300 5950 3300
+Wire Wire Line
+	5350 3400 5950 3400
+Text Label 800  5250 0    50   ~ 0
+GPS_UART_RX
+Text Label 800  5350 0    50   ~ 0
+GPS_UART_TX
+Text Label 800  5450 0    50   ~ 0
+GPS_RESET
+Wire Wire Line
+	800  5250 1400 5250
+Wire Wire Line
+	800  5350 1400 5350
+Wire Wire Line
+	800  5450 1400 5450
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61A2CDEF
+P 2275 1450
+F 0 "TP1" H 2200 1650 50  0000 L CNN
+F 1 "TestPoint" H 2100 1750 50  0000 L CNN
+F 2 "" H 2475 1450 50  0001 C CNN
+F 3 "~" H 2475 1450 50  0001 C CNN
+	1    2275 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2525 1450 2950 1450
+$Comp
+L Device:C C2
+U 1 1 61A2F857
+P 2950 1600
+F 0 "C2" H 3065 1646 50  0000 L CNN
+F 1 "C" H 3065 1555 50  0000 L CNN
+F 2 "" H 2988 1450 50  0001 C CNN
+F 3 "~" H 2950 1600 50  0001 C CNN
+	1    2950 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2950 1450
+Wire Wire Line
+	2950 1450 3225 1450
+Connection ~ 2950 1750
+Wire Wire Line
+	2950 1750 3225 1750
+$Comp
+L Device:C C1
+U 1 1 61A34F4F
+P 2525 1600
+F 0 "C1" H 2640 1646 50  0000 L CNN
+F 1 "C" H 2640 1555 50  0000 L CNN
+F 2 "" H 2563 1450 50  0001 C CNN
+F 3 "~" H 2525 1600 50  0001 C CNN
+	1    2525 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2525 1750
+Wire Wire Line
+	2525 1750 2950 1750
+Wire Wire Line
+	2525 1450 2275 1450
+Connection ~ 2525 1450
+Connection ~ 2275 1450
+Wire Wire Line
+	1850 1450 2275 1450
+$Comp
+L Device:C C3
+U 1 1 61A3AF2A
+P 4425 1600
+F 0 "C3" H 4540 1646 50  0000 L CNN
+F 1 "C" H 4540 1555 50  0000 L CNN
+F 2 "" H 4463 1450 50  0001 C CNN
+F 3 "~" H 4425 1600 50  0001 C CNN
+	1    4425 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4425 1450 4550 1450
+Connection ~ 4425 1450
+Wire Wire Line
+	4425 1750 4725 1750
+Connection ~ 4425 1750
+Wire Wire Line
+	1850 1750 2525 1750
+$Comp
+L power:GND #PWR0102
+U 1 1 61A43159
+P 2525 1750
+F 0 "#PWR0102" H 2525 1500 50  0001 C CNN
+F 1 "GND" H 2530 1577 50  0000 C CNN
+F 2 "" H 2525 1750 50  0001 C CNN
+F 3 "" H 2525 1750 50  0001 C CNN
+	1    2525 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 61A43D10
+P 4425 1750
+F 0 "#PWR0103" H 4425 1500 50  0001 C CNN
+F 1 "GND" H 4430 1577 50  0000 C CNN
+F 2 "" H 4425 1750 50  0001 C CNN
+F 3 "" H 4425 1750 50  0001 C CNN
+	1    4425 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61A446CA
+P 1050 1750
+F 0 "#PWR0104" H 1050 1500 50  0001 C CNN
+F 1 "GND" H 1055 1577 50  0000 C CNN
+F 2 "" H 1050 1750 50  0001 C CNN
+F 3 "" H 1050 1750 50  0001 C CNN
+	1    1050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 61A5444D
+P 8100 5900
+F 0 "C4" H 8215 5946 50  0000 L CNN
+F 1 "C" H 8215 5855 50  0000 L CNN
+F 2 "" H 8138 5750 50  0001 C CNN
+F 3 "~" H 8100 5900 50  0001 C CNN
+	1    8100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61A66396
+P 4550 1450
+F 0 "TP2" H 4500 1650 50  0000 L CNN
+F 1 "TestPoint" H 4400 1750 50  0000 L CNN
+F 2 "" H 4750 1450 50  0001 C CNN
+F 3 "~" H 4750 1450 50  0001 C CNN
+	1    4550 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 1450
+Wire Wire Line
+	4550 1450 4725 1450
+Wire Notes Line
+	7450 750  7450 6350
+Wire Notes Line
+	10950 750  10950 6350
+$Comp
+L Device:C C5
+U 1 1 61A71D4C
+P 8500 5900
+F 0 "C5" H 8615 5946 50  0000 L CNN
+F 1 "C" H 8615 5855 50  0000 L CNN
+F 2 "" H 8538 5750 50  0001 C CNN
+F 3 "~" H 8500 5900 50  0001 C CNN
+	1    8500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 61A724B0
+P 8900 5900
+F 0 "C6" H 9015 5946 50  0000 L CNN
+F 1 "C" H 9015 5855 50  0000 L CNN
+F 2 "" H 8938 5750 50  0001 C CNN
+F 3 "~" H 8900 5900 50  0001 C CNN
+	1    8900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 61A7276F
+P 9750 5900
+F 0 "C7" H 9865 5946 50  0000 L CNN
+F 1 "C" H 9865 5855 50  0000 L CNN
+F 2 "" H 9788 5750 50  0001 C CNN
+F 3 "~" H 9750 5900 50  0001 C CNN
+	1    9750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 61A7304F
+P 10200 5900
+F 0 "C8" H 10315 5946 50  0000 L CNN
+F 1 "C" H 10315 5855 50  0000 L CNN
+F 2 "" H 10238 5750 50  0001 C CNN
+F 3 "~" H 10200 5900 50  0001 C CNN
+	1    10200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 61A7319F
+P 10600 5900
+F 0 "C9" H 10715 5946 50  0000 L CNN
+F 1 "C" H 10715 5855 50  0000 L CNN
+F 2 "" H 10638 5750 50  0001 C CNN
+F 3 "~" H 10600 5900 50  0001 C CNN
+	1    10600 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 5750 8500 5750
+Wire Wire Line
+	8900 5750 8500 5750
+Connection ~ 8500 5750
+Wire Wire Line
+	8100 6050 8500 6050
+Wire Wire Line
+	8500 6050 8900 6050
+Connection ~ 8500 6050
+Connection ~ 8100 5750
+Connection ~ 8100 6050
+$Comp
+L power:GND #PWR01
+U 1 1 61A86937
+P 7650 6050
+F 0 "#PWR01" H 7650 5800 50  0001 C CNN
+F 1 "GND" H 7655 5877 50  0000 C CNN
+F 2 "" H 7650 6050 50  0001 C CNN
+F 3 "" H 7650 6050 50  0001 C CNN
+	1    7650 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5750 10200 5750
+Wire Wire Line
+	10600 5750 10200 5750
+Connection ~ 10200 5750
+Wire Wire Line
+	10600 6050 10200 6050
+Wire Wire Line
+	10200 6050 9750 6050
+Connection ~ 10200 6050
+Connection ~ 9750 6050
+Connection ~ 9750 5750
+$Comp
+L power:GND #PWR08
+U 1 1 61AA06D0
+P 9250 6050
+F 0 "#PWR08" H 9250 5800 50  0001 C CNN
+F 1 "GND" H 9255 5877 50  0000 C CNN
+F 2 "" H 9250 6050 50  0001 C CNN
+F 3 "" H 9250 6050 50  0001 C CNN
+	1    9250 6050
+	1    0    0    -1  
+$EndComp
+Text Label 9250 5750 0    50   ~ 0
+MOTOR_VIN
+Text Label 7650 5750 0    50   ~ 0
+LOGIC_VIN
+Text Label 7750 4300 0    50   ~ 0
+LOGIC_VIN
+Text Label 7750 2750 0    50   ~ 0
+LOGIC_VIN
+Text Label 7750 1350 0    50   ~ 0
+LOGIC_VIN
+Wire Wire Line
+	7750 1350 8150 1350
+Wire Wire Line
+	7750 2750 8150 2750
+Wire Wire Line
+	7750 4300 8150 4300
+Text Label 9550 4300 2    50   ~ 0
+MOTOR_VIN
+Text Label 9550 2750 2    50   ~ 0
+MOTOR_VIN
+Text Label 9550 1350 2    50   ~ 0
+MOTOR_VIN
+Wire Wire Line
+	9550 1350 9100 1350
+Wire Wire Line
+	9550 2750 9100 2750
+Wire Wire Line
+	9550 4300 9100 4300
+Text Label 9850 1700 0    50   ~ 0
+LOGIC_VIN
+Wire Wire Line
+	10250 1700 9850 1700
+Text Label 9850 3100 0    50   ~ 0
+LOGIC_VIN
+Wire Wire Line
+	9850 3100 10250 3100
+Text Label 9850 4650 0    50   ~ 0
+LOGIC_VIN
+Wire Wire Line
+	9850 4650 10250 4650
+Text Label 7650 6050 0    50   ~ 0
+LOGIC_GND
+Wire Wire Line
+	7650 6050 8100 6050
+Wire Wire Line
+	7650 5750 8100 5750
+Text Label 9850 4550 0    50   ~ 0
+LOGIC_GND
+Wire Wire Line
+	9850 4550 10250 4550
+Text Label 9850 3000 0    50   ~ 0
+LOGIC_GND
+Wire Wire Line
+	9850 3000 10250 3000
+Text Label 9850 1600 0    50   ~ 0
+LOGIC_GND
+Wire Wire Line
+	9850 1600 10250 1600
+Text Label 9250 6050 0    50   ~ 0
+MOTOR_GND
+Wire Wire Line
+	9250 5750 9750 5750
+Wire Wire Line
+	9250 6050 9750 6050
+Text Label 9550 4400 2    50   ~ 0
+MOTOR_GND
+Wire Wire Line
+	9100 4400 9550 4400
+Text Label 9550 2850 2    50   ~ 0
+MOTOR_GND
+Wire Wire Line
+	9550 2850 9100 2850
+Text Label 9550 1450 2    50   ~ 0
+MOTOR_GND
+Wire Wire Line
+	9550 1450 9100 1450
+Text Label 7750 4400 0    50   ~ 0
+LOGIC_GND
+Wire Wire Line
+	7750 4400 8150 4400
+Text Label 7750 2850 0    50   ~ 0
+LOGIC_GND
+Wire Wire Line
+	8150 2850 7750 2850
+Text Label 7750 1450 0    50   ~ 0
+LOGIC_GND
+Wire Wire Line
+	7750 1450 8150 1450
+Text Label 2525 1450 0    50   ~ 0
+VBAT_UNREG
+Text Label 5350 2950 0    50   ~ 0
+LOGIC_VIN
+Wire Wire Line
+	5950 3050 5875 3050
+Wire Wire Line
+	5875 3050 5875 2950
+Connection ~ 5875 2950
+Wire Wire Line
+	5875 2950 5950 2950
+Wire Wire Line
+	5350 2950 5875 2950
+NoConn ~ 6850 2950
+NoConn ~ 6850 3050
+Text Label 5750 4275 0    50   ~ 0
+LOGIC_VIN
+$Comp
+L power:GND #PWR03
+U 1 1 61B42CA6
+P 6575 5675
+F 0 "#PWR03" H 6575 5425 50  0001 C CNN
+F 1 "GND" H 6580 5502 50  0000 C CNN
+F 2 "" H 6575 5675 50  0001 C CNN
+F 3 "" H 6575 5675 50  0001 C CNN
+	1    6575 5675
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	7350 6350 7350 2500
+Wire Notes Line
+	7350 2500 5000 2500
+Wire Notes Line
+	5000 2500 5000 6350
+Wire Notes Line
+	5000 6350 7350 6350
+Wire Notes Line
+	4825 2500 4825 6525
+Wire Notes Line
+	4825 6525 6750 6525
+Wire Notes Line
+	6750 6525 6750 7650
+Wire Notes Line
+	6750 7650 625  7650
+Wire Notes Line
+	625  7650 625  2500
+Wire Notes Line
+	625  2500 4800 2500
+Wire Notes Line
+	7350 2400 7350 750 
+Wire Notes Line
+	7350 750  625  750 
+Wire Notes Line
+	625  750  625  2400
+Wire Notes Line
+	625  2400 7350 2400
+Text Notes 700  975  0    100  ~ 20
+Power management
+Text Notes 700  2750 0    100  ~ 20
+MCU Logic\n
+Text Notes 5100 2725 0    100  ~ 20
+Sensors
+Connection ~ 6475 4275
+Wire Wire Line
+	6475 4275 6675 4275
+Wire Wire Line
+	5750 4275 6475 4275
+$Comp
+L Device:C C11
+U 1 1 61B9A198
+P 6125 5975
+F 0 "C11" H 6240 6021 50  0000 L CNN
+F 1 "C" H 6240 5930 50  0000 L CNN
+F 2 "" H 6163 5825 50  0001 C CNN
+F 3 "~" H 6125 5975 50  0001 C CNN
+	1    6125 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 61B98509
+P 5750 5975
+F 0 "C10" H 5865 6021 50  0000 L CNN
+F 1 "C" H 5865 5930 50  0000 L CNN
+F 2 "" H 5788 5825 50  0001 C CNN
+F 3 "~" H 5750 5975 50  0001 C CNN
+	1    5750 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L lego_robot:ICM-20948 U5
+U 1 1 619A46FD
+P 6575 4975
+F 0 "U5" H 6250 5625 50  0000 C CNN
+F 1 "ICM-20948" H 6850 4325 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 6575 3975 50  0001 C CNN
+F 3 "http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf" H 6575 4825 50  0001 C CNN
+	1    6575 4975
+	1    0    0    -1  
+$EndComp
+Text Label 5150 5825 0    50   ~ 0
+LOGIC_VIN
+Text Label 5150 6125 0    50   ~ 0
+LOGIC_GND
+$Comp
+L power:GND #PWR02
+U 1 1 61BB3FA0
+P 5150 6125
+F 0 "#PWR02" H 5150 5875 50  0001 C CNN
+F 1 "GND" H 5150 5975 50  0000 C CNN
+F 2 "" H 5150 6125 50  0001 C CNN
+F 3 "" H 5150 6125 50  0001 C CNN
+	1    5150 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5825 5750 5825
+Wire Wire Line
+	5750 5825 6125 5825
+Connection ~ 5750 5825
+Wire Wire Line
+	6125 6125 5750 6125
+Wire Wire Line
+	5750 6125 5150 6125
+Connection ~ 5750 6125
+$Comp
+L Device:LED D?
+U 1 1 61BE0F01
+P 3000 2175
+F 0 "D?" H 2993 2392 50  0000 C CNN
+F 1 "LED" H 2993 2301 50  0000 C CNN
+F 2 "" H 3000 2175 50  0001 C CNN
+F 3 "~" H 3000 2175 50  0001 C CNN
+	1    3000 2175
+	1    0    0    -1  
+$EndComp
+Text Label 6450 1125 2    50   ~ 0
+LOGIC_VIN
+Text Label 6450 1250 2    50   ~ 0
+MOTOR_VIN
+Wire Wire Line
+	6450 1125 5850 1125
+Wire Wire Line
+	6450 1250 5850 1250
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61BEE796
+P 6450 1125
+F 0 "TP?" V 6450 1300 50  0000 L CNN
+F 1 "TestPoint" V 6450 1500 50  0000 L CNN
+F 2 "" H 6650 1125 50  0001 C CNN
+F 3 "~" H 6650 1125 50  0001 C CNN
+	1    6450 1125
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61BF5796
+P 6450 1250
+F 0 "TP?" V 6450 1425 50  0000 L CNN
+F 1 "TestPoint" V 6450 1625 50  0000 L CNN
+F 2 "" H 6650 1250 50  0001 C CNN
+F 3 "~" H 6650 1250 50  0001 C CNN
+	1    6450 1250
+	0    1    1    0   
+$EndComp
+Text Label 6450 1450 2    50   ~ 0
+LOGIC_GND
+Text Label 6450 1550 2    50   ~ 0
+MOTOR_GND
+Wire Wire Line
+	6450 1450 5850 1450
+Wire Wire Line
+	6450 1550 5850 1550
+Wire Wire Line
+	5850 1450 5850 1550
+$Comp
+L power:GND #PWR?
+U 1 1 61C09A05
+P 5850 1550
+F 0 "#PWR?" H 5850 1300 50  0001 C CNN
+F 1 "GND" H 5855 1377 50  0000 C CNN
+F 2 "" H 5850 1550 50  0001 C CNN
+F 3 "" H 5850 1550 50  0001 C CNN
+	1    5850 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 1550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61C0A0F2
+P 6450 1450
+F 0 "TP?" V 6450 1625 50  0000 L CNN
+F 1 "TestPoint" V 6450 1825 50  0000 L CNN
+F 2 "" H 6650 1450 50  0001 C CNN
+F 3 "~" H 6650 1450 50  0001 C CNN
+	1    6450 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61C0A565
+P 6450 1550
+F 0 "TP?" V 6450 1725 50  0000 L CNN
+F 1 "TestPoint" V 6450 1925 50  0000 L CNN
+F 2 "" H 6650 1550 50  0001 C CNN
+F 3 "~" H 6650 1550 50  0001 C CNN
+	1    6450 1550
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

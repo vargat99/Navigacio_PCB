@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ICM-20948
+D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24
+K mems magnetometer
+F http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf
+$ENDCMP
+#
+$CMP Motor_Connector
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP STM32F446RCTx
+D ARM Cortex-M4 MCU, 256KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F4 STM32F446
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf
+$ENDCMP
+#
+$CMP STM32F446RETx
+D ARM Cortex-M4 MCU, 512KB flash, 128KB RAM, 180MHz, 1.8-3.6V, 50 GPIO, LQFP-64
+K ARM Cortex-M4 STM32F4 STM32F446
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141306.pdf
+$ENDCMP
+#
+#End Doc Library

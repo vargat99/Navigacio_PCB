@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name lego_robot)(type Legacy)(uri ${KIPRJMOD}/lego_robot.lib)(options "")(descr ""))
+  (lib (name nucleo)(type Legacy)(uri ${KIPRJMOD}/eec.lib)(options "")(descr ""))
+)
