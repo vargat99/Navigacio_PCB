@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L80-M39
+D L80 GPS Module
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/54dad088769b805410b2916ae92dc7c0.pdf
+$ENDCMP
+#
+#End Doc Library
