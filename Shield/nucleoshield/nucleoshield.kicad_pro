@@ -387,6 +387,7 @@
           "E5V",
           "ENCODER_VCC",
           "LOGIC_5V",
+          "NUCLEO_5V",
           "VIN"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
