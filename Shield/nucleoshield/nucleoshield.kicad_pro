@@ -384,9 +384,10 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "E5V",
+          "3V3_DCDC",
           "ENCODER_VCC",
           "LOGIC_5V",
+          "NUCLEO_3V3",
           "NUCLEO_5V",
           "VIN"
         ],
