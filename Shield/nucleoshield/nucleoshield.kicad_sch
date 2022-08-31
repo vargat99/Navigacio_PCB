@@ -2672,7 +2672,7 @@
     (uuid 1d784b1d-1a08-453a-ad94-19f28f2d2290)
     (property "Reference" "JP2" (id 0) (at 38.1 67.945 0))
     (property "Value" "Jumper_3_Open" (id 1) (at 38.1 70.485 0))
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (id 2) (at 38.1 74.93 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 38.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 38.1 74.93 0)
@@ -2898,7 +2898,7 @@
     (uuid 6e750300-c15d-40a5-8bda-8418a557aac4)
     (property "Reference" "JP3" (id 0) (at 33.02 23.495 0))
     (property "Value" "Jumper_3_Open" (id 1) (at 33.02 26.035 0))
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" (id 2) (at 33.02 30.48 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 33.02 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 33.02 30.48 0)
@@ -3444,10 +3444,10 @@
       (reference "JP1") (unit 1) (value "AVDD-3.3V") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
     )
     (path "/1d784b1d-1a08-453a-ad94-19f28f2d2290"
-      (reference "JP2") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "JP2") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/6e750300-c15d-40a5-8bda-8418a557aac4"
-      (reference "JP3") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "JP3") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/3c113301-69e8-4565-8218-7206db335ff7"
       (reference "Q1") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
