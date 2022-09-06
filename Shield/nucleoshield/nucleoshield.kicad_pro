@@ -385,10 +385,14 @@
         "name": "Power",
         "nets": [
           "3V3_DCDC",
+          "5V_DCDC",
           "ENCODER_VCC",
           "LOGIC_5V",
           "NUCLEO_3V3",
           "NUCLEO_5V",
+          "Net-(J12-Pad2)",
+          "Net-(J13-Pad2)",
+          "Net-(J3-Pad2)",
           "VIN"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
